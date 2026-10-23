@@ -1,0 +1,6 @@
+{
+  "name": "dynamic-island-plus",
+  "version": "3.0.0",
+  "description": "GNOME island lifecycle bridge",
+  "hooks": "./hooks/hooks.json"
+}

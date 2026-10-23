@@ -1,0 +1,11 @@
+{
+  "uuid": "dynamic-island-plus-v2@local",
+  "name": "Dynamic Island Plus Desktop",
+  "description": "Dynamic Island Plus v2 with an original animated mascot across media, system events, notifications, battery, Bluetooth and AI-agent states.",
+  "shell-version": [
+    "49",
+    "50"
+  ],
+  "version": 5,
+  "url": "https://github.com/shoyoshaurya/gnome-dynamic-island"
+}

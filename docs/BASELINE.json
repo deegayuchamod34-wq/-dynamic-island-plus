@@ -1,0 +1,11 @@
+{
+  "source": "/home/deegayu/Downloads/dynamic-island-plus-v2-global-mascot/extension",
+  "installed_extension_matches_source": true,
+  "sha256": {
+    "extension.js": "26eb8492d3ce098a80e2832bf6140575db100e45998c67359df557aa817f79de",
+    "metadata.json": "fbe2d44cd11a7bd9d91fed184429d814e64d6723969d48a65c6702269bffadac",
+    "stylesheet.css": "727635186a210299a49233039a1f443adfe6ecaeaa2b30f8c8071efc12efa108"
+  },
+  "codex_source": "Downloads/dynamic-island-plus-v2-codex/dynamic-island-codex-hook",
+  "note": "The complete conversation ZIP was unavailable. This build combines the latest locally available global-mascot extension (identical to the installed copy) with its Codex add-on."
+}

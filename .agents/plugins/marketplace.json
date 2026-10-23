@@ -1,0 +1,20 @@
+{
+  "name": "dynamic-island-local",
+  "interface": {
+    "displayName": "Dynamic Island Plus"
+  },
+  "plugins": [
+    {
+      "name": "dynamic-island-plus",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dynamic-island-plus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

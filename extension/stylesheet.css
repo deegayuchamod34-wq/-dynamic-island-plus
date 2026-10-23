@@ -1,0 +1,118 @@
+.dip-island {
+  background-color: rgba(7, 9, 13, 0.90);
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 22px;
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.42);
+  padding: 0;
+}
+.dip-island.expanded { border-radius: 28px; }
+.dip-collapsed { padding: 0 13px; spacing: 8px; }
+.dip-mini-icon { icon-size: 16px; color: rgba(255,255,255,0.92); }
+.dip-collapsed-label { font-size: 12px; font-weight: 700; color: #fff; }
+.dip-collapsed-value { font-size: 10px; color: rgba(255,255,255,0.58); max-width: 95px; }
+.dip-expanded { padding: 12px 14px 14px 14px; spacing: 8px; }
+.dip-top-row { spacing: 8px; }
+.dip-title { font-size: 12px; font-weight: 800; color: rgba(255,255,255,0.95); }
+.dip-drag-hint { font-size: 13px; color: rgba(255,255,255,0.35); }
+.dip-tabs { spacing: 5px; }
+.dip-tab {
+  background-color: rgba(255,255,255,0.06);
+  color: rgba(255,255,255,0.62);
+  border-radius: 10px;
+  padding: 5px 9px;
+  font-size: 10px;
+}
+.dip-tab:hover, .dip-tab:checked { background-color: rgba(255,255,255,0.14); color: #fff; }
+.dip-pages { padding-top: 3px; }
+.dip-page { spacing: 7px; }
+.dip-page-title { font-size: 15px; font-weight: 800; color: #fff; }
+.dip-subtitle { font-size: 11px; color: rgba(255,255,255,0.55); }
+.dip-large-icon { icon-size: 42px; margin-right: 12px; color: rgba(255,255,255,0.9); }
+.dip-media-controls { spacing: 16px; margin-top: 8px; }
+.dip-icon-button { background-color: rgba(255,255,255,0.09); border-radius: 18px; padding: 7px; }
+.dip-icon-button:hover { background-color: rgba(255,255,255,0.18); }
+.dip-control-icon { icon-size: 18px; }
+.dip-status-row { padding: 2px 1px; spacing: 8px; }
+.dip-status-icon { icon-size: 15px; color: rgba(255,255,255,0.7); }
+.dip-status-label { font-size: 11px; color: rgba(255,255,255,0.68); }
+.dip-status-value { font-size: 11px; font-weight: 700; color: #fff; }
+.dip-clock-detail { font-size: 10px; color: rgba(255,255,255,0.48); padding-top: 4px; }
+.dip-empty { font-size: 11px; color: rgba(255,255,255,0.45); padding: 8px 2px; }
+.dip-notif-row { background-color: rgba(255,255,255,0.05); border-radius: 10px; padding: 6px 8px; margin-bottom: 4px; }
+.dip-notif-title { font-size: 11px; font-weight: 750; color: #fff; }
+.dip-notif-body { font-size: 10px; color: rgba(255,255,255,0.56); }
+.dip-agent-list { spacing: 5px; }
+.dip-agent-card { background-color: rgba(255,255,255,0.055); border-radius: 12px; padding: 7px 9px; spacing: 4px; }
+.dip-agent-name { font-size: 11px; font-weight: 800; margin-left: 6px; }
+.dip-agent-status { font-size: 10px; color: rgba(255,255,255,0.55); }
+.dip-agent-summary { font-size: 10px; color: rgba(255,255,255,0.68); }
+.dip-dot-live { color: #51d88a; font-size: 10px; }
+.dip-dot-warn { color: #ffb84d; font-size: 10px; }
+.dip-pending-detail { font-size: 10px; color: rgba(255,255,255,0.82); }
+.dip-approval-row { spacing: 7px; padding-top: 3px; }
+.dip-allow-button, .dip-deny-button, .dip-choice-button { border-radius: 10px; padding: 6px 11px; font-size: 10px; font-weight: 750; }
+.dip-allow-button { background-color: rgba(55, 190, 110, 0.30); }
+.dip-allow-button:hover { background-color: rgba(55, 190, 110, 0.47); }
+.dip-deny-button { background-color: rgba(230, 70, 75, 0.25); }
+.dip-deny-button:hover { background-color: rgba(230, 70, 75, 0.43); }
+.dip-choice-button { background-color: rgba(95, 145, 255, 0.23); }
+.dip-choice-button:hover { background-color: rgba(95, 145, 255, 0.38); }
+
+
+/* Dynamic Island Plus original mascot — intentionally distinct from Coucou/Mochi. */
+.dip-mascot {
+  background-color: rgba(247,248,250,0.98);
+  color: #101216;
+  border: 1px solid rgba(255,255,255,0.42);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.24);
+  font-weight: 900;
+}
+.dip-mascot-mini {
+  min-width: 31px;
+  height: 23px;
+  border-radius: 10px;
+  padding: 0 4px;
+  margin-right: 1px;
+}
+.dip-mascot-page {
+  min-width: 48px;
+  height: 34px;
+  border-radius: 14px;
+  padding: 0 7px;
+  margin-right: 9px;
+}
+.dip-mascot-tiny {
+  min-width: 29px;
+  height: 21px;
+  border-radius: 9px;
+  padding: 0 3px;
+}
+.dip-mascot-face {
+  color: #101216;
+  font-family: monospace;
+  font-size: 10px;
+  font-weight: 900;
+}
+.dip-mascot-page .dip-mascot-face { font-size: 13px; }
+.dip-mascot-state-thinking { background-color: rgba(230,225,255,0.98); }
+.dip-mascot-state-working { background-color: rgba(222,239,255,0.98); }
+.dip-mascot-state-permission { background-color: rgba(255,231,181,0.99); }
+.dip-mascot-state-question { background-color: rgba(255,237,198,0.99); }
+.dip-mascot-state-waiting { background-color: rgba(255,236,200,0.99); }
+.dip-mascot-state-success { background-color: rgba(218,255,231,0.99); }
+.dip-mascot-state-error { background-color: rgba(255,216,220,0.99); }
+.dip-agent-mascot-head { spacing: 8px; }
+
+/* Global mascot contexts: media + system events + connectivity. */
+.dip-mascot-state-music { background-color: rgba(218, 242, 255, 0.99); }
+.dip-mascot-state-paused { background-color: rgba(235, 238, 243, 0.99); }
+.dip-mascot-state-volume { background-color: rgba(222, 239, 255, 0.99); }
+.dip-mascot-state-muted { background-color: rgba(232, 232, 235, 0.99); }
+.dip-mascot-state-brightness { background-color: rgba(255, 244, 195, 0.99); }
+.dip-mascot-state-battery-low { background-color: rgba(255, 220, 220, 0.99); }
+.dip-mascot-state-charging { background-color: rgba(219, 255, 226, 0.99); }
+.dip-mascot-state-bluetooth { background-color: rgba(223, 232, 255, 0.99); }
+.dip-mascot-state-notification { background-color: rgba(244, 228, 255, 0.99); }
+.dip-mascot-state-network { background-color: rgba(220, 250, 232, 0.99); }
+.dip-mascot-state-offline { background-color: rgba(255, 224, 224, 0.99); }
