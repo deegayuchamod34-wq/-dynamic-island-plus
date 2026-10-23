@@ -1,7 +1,11 @@
 {
   ".agents/plugins/marketplace.json": "b17b77b99f5bd75b634336d5d4972b48eb115d9337611c8258be6033d5053136",
+  ".github/ISSUE_TEMPLATE/bug_report.md": "2829b063768c1285725cd620f68c875b1b9c8d9dd3b61a1010931b7656ed7ce9",
+  ".github/ISSUE_TEMPLATE/feature_request.md": "0b4a828a436e383eaa8dba1f0b65cf6bcce379d3350d5a5a4d3e25e5cda1bbab",
+  ".github/PULL_REQUEST_TEMPLATE.md": "0f863b4d927dea4dff67ffce81a3f889be16fbc5e9b5f1ad9968b8e7b52e8ab4",
   ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
   "CHANGELOG.md": "e042eb6517e7f6bd82b1f37fb305c7ed0ee34e01c825fca3da68cb1c508892c4",
+  "CONTRIBUTING.md": "c0b5ef7263fd490ca40ac3a4995e7748673b5d3372bec25c45ac89fa3841a487",
   "LICENSE": "451754e797ef3475149de3a9c67668afd983b67344a39fd55b241b7d40a461f4",
   "README.md": "0627513dae43b59001f142db67cffe726628b760442bde39b66ddc7939729fd5",
   "bridge/engine.py": "c1f4338c9a48eca9cc9cb9203f2225166446537620c784d2a8c0fcabe629a6ec",
